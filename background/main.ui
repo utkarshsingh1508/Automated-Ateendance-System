@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QDialog" name="main">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1188</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1188</width>
+    <height>631</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1188</width>
+    <height>631</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <italic>true</italic>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>QWIKLY</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>E:/project/icon.png</normaloff>E:/project/icon.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/newPrefix/imageedit_8_7961532127.jpg);</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>490</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+font: 75 12pt &quot;Times New Roman&quot;;
+color:rgb(85, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>ADMINISTRATOR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>410</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+font: 14pt &quot;Times New Roman&quot;;
+color:rgb(0, 0, 127)</string>
+   </property>
+   <property name="text">
+    <string>      USER</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="E:/project/xx.qrc"/>
+ </resources>
+ <connections/>
+</ui>
